@@ -1,0 +1,18 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+class Node {
+    int key;
+    int count;
+    Node leftChild;
+    Node rightChild;
+
+    public Node(int key) {
+        this.key = key;
+        this.count = 1;
+        this.leftChild = null;
+        this.rightChild = null;
+    }
+}
